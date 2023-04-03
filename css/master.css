@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.timer{
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 17px 8px #a9a5a5;
+
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.time span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.time div{
+    display: flex;
+    align-items: center;
+}
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.control i{
+    cursor: pointer;
+    color: white;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+}
+.control i:first-child{
+background-color: #2db928;
+}
+.control i:nth-child(2){
+background-color: #ffb900;
+}
+.control i:last-child{
+background-color: #ff2d37;
+}
+
+p{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+}
+p a{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
